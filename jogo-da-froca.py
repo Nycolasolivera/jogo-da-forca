@@ -2,7 +2,8 @@ import random
 
 def escolher_palavra():
     palavras = ["desenvolvimento", "tecnologia", "logica", "programacao", "tendencias", "inovacao", "futuro", "inteligencia", "artificial"]
-    return random.choice(palavras) 
+    return random.choice(palavras)
+    
 def exibir_forca(tentativas):
     estagios = [
         '''
